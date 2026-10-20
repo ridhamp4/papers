@@ -4,7 +4,7 @@
     "subtitle": "Research papers",
     "bio": "I study machine learning for evolving scientific systems, especially neural PDE solvers, time-series models, and Graph ML. My work asks how to make their predictions reliable across numerical methods, resolutions, and changing conditions.",
     "contact": "https://www.linkedin.com/in/ridhamp4/",
-    "site_url": "https://ridhamp4.github.io/papers",
+    "site_url": "",
     "auto_publish": true,
     "github_repo": "https://github.com/ridhamp4/papers"
   },

@@ -3,6 +3,5 @@ AU  - Ridham Patel
 TI  - Multi-Diagnostic Ensemble for Physics-Informed Neural Networks
 PY  - 2026
 T2  - ASCML 2026
-UR  - https://ridhamp4.github.io/papers/papers/multi-diagnostic-ensemble-for-physics-informed-neural-networks/
 AB  - Physics-informed machine learning fails where there is multiscale structure, stiffness, and localized sharp features. Unidirectional analysis to minimize these errors is often not enough due to multiscale residual components. Therefore, we introduce an ensemble method that performs various diagnostics and solves the problem based on the collective opinion of its components. This Method is tested and proven over several PDEs, including the Allen-Cahn Equations, which construct all the required challenges that we plan to mitigate.
 ER  - 
