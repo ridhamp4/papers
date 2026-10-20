@@ -1,0 +1,11 @@
+TY  - GEN
+AU  - Ridham Patel
+AU  - Defu Cao
+AU  - Jiacheng Pang
+AU  - Yan Liu
+TI  - Measuring Effective Data Resolution in Guided Diffusion Posteriors
+PY  - 2026
+T2  - NeurIPS 2026 Workshop on AI for Stochastic Dynamics
+UR  - https://arxiv.org/abs/2610.04422
+AB  - Guided diffusion samplers are increasingly used to reconstruct physical fields from sparse observations, but standard diagnostics do not say how much of the reconstruction was actually determined by the data. We introduce effective data resolution for black-box generative posteriors: a comparison between the resolution warranted by the inverse problem, , and the resolution realised by the sampler, . A perturbation estimator measures and the spatial map R(x,x) from sampler queries alone. We validate the estimator against exact references and use it to study guided diffusion. The resulting measurements show that guidance weight can strongly alter apparent information transfer, that mean, spread and resolution are not jointly corrected by one weight even with an exact prior and score, and that resolution fidelity does not follow reliably from the apparent principledness of a guidance rule.
+ER  - 

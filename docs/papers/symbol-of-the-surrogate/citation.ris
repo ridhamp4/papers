@@ -1,0 +1,8 @@
+TY  - GEN
+AU  - Ridham Patel
+TI  - The Symbol of the Surrogate: Measuring Numerical Provenance in Neural PDE Solvers
+PY  - 2026
+T2  - NeurIPS 2026 AI for Science Workshop
+UR  - https://arxiv.org/abs/2610.09255
+AB  - Neural PDE surrogates are trained on numerical solver outputs that contain both physical evolution and solver-specific discretization errors. Because surrogates are also evaluated against held-out trajectories from the same solver, standard benchmarks cannot distinguish fidelity to the exact evolution from imitation of the numerical scheme. We introduce an empirical Fourier-symbol diagnostic that probes a trained surrogate's linearized one-step operator with individual Fourier modes and compares it with both exact-evolution and training-scheme references. To address architectural spectral bias, we train identical networks on schemes with orthogonal dissipative and dispersive signatures and compare their learned operators. In linear advection, the learned surrogates reproduce the training schemes' amplitude and phase errors, with the twin-scheme difference reaching more than 99.8% of the analytically predicted full-imitation ceiling. The same behavior occurs for a non-local Fourier neural operator and at the operator level for nonlinear Burgers dynamics. These results show that agreement with solver-generated test data does not by itself establish fidelity to the exact evolution. Fourier-symbol measurements provide a direct diagnostic of numerical provenance.
+ER  - 

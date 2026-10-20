@@ -1,0 +1,8 @@
+TY  - GEN
+AU  - Ridham Patel
+TI  - Capturing High Frequency Features Using HF-Boost Based Spectrally Adaptive Physics-Informed Neural Networks
+PY  - 2026
+T2  - ASCML 2026
+UR  - https://ridhamp4.github.io/papers/papers/capturing-high-frequency-features-using-hf-boost-based-spectrally-adapti-2/
+AB  - Neural networks are known to exhibit spectral bias, often learning low-frequency components faster than high-frequency components. This limitation is especially important in scientific machine learning, where sharp gradients, boundary layers, shocks, and oscillatory solutions may carry substantial high-frequency content. We propose HF-Boost, a spectrally adaptive physics-informed neural network (PINN) training strategy that monitors the PDE residual in Fourier bands and increases the PDE-loss weight when high-frequency residual energy is prominent. On Burgers' equation and additional benchmark PDEs, the method improves high-frequency-region accuracy relative to fixed-weight PINN baselines.
+ER  - 

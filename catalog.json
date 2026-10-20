@@ -1,0 +1,118 @@
+{
+  "settings": {
+    "name": "Ridham Patel",
+    "subtitle": "Research papers",
+    "bio": "I study machine learning for evolving scientific systems, especially neural PDE solvers, time-series models, and Graph ML. My work asks how to make their predictions reliable across numerical methods, resolutions, and changing conditions.",
+    "contact": "https://www.linkedin.com/in/ridhamp4/",
+    "site_url": "https://ridhamp4.github.io/papers",
+    "auto_publish": true,
+    "github_repo": "https://github.com/ridhamp4/papers"
+  },
+  "papers": [
+    {
+      "slug": "multi-diagnostic-ensemble-for-physics-informed-neural-networks",
+      "title": "Multi-Diagnostic Ensemble for Physics-Informed Neural Networks",
+      "authors": "Ridham Patel",
+      "abstract": "Physics-informed machine learning fails where there is multiscale structure, stiffness, and localized sharp features. Unidirectional analysis to minimize these errors is often not enough due to multiscale residual components. Therefore, we introduce an ensemble method that performs various diagnostics and solves the problem based on the collective opinion of its components. This Method is tested and proven over several PDEs, including the Allen-Cahn Equations, which construct all the required challenges that we plan to mitigate.",
+      "year": "2026",
+      "venue": "ASCML 2026",
+      "date": "2026-10-20",
+      "arxiv": "",
+      "openreview": "",
+      "proceedings": "",
+      "source": "multi-diagnostic-ensemble-for-physics-informed-neural-networks.zip",
+      "pdf": "multi-diagnostic-ensemble-for-physics-informed-neural-networks.pdf",
+      "institutes": [
+        "Indian Institute of Technology Gandhinagar"
+      ]
+    },
+    {
+      "slug": "capturing-high-frequency-features-using-hf-boost-based-spectrally-adapti-2",
+      "title": "Capturing High Frequency Features Using HF-Boost Based Spectrally Adaptive Physics-Informed Neural Networks",
+      "authors": "Ridham Patel",
+      "abstract": "Neural networks are known to exhibit spectral bias, often learning low-frequency components faster than high-frequency components. This limitation is especially important in scientific machine learning, where sharp gradients, boundary layers, shocks, and oscillatory solutions may carry substantial high-frequency content. We propose HF-Boost, a spectrally adaptive physics-informed neural network (PINN) training strategy that monitors the PDE residual in Fourier bands and increases the PDE-loss weight when high-frequency residual energy is prominent. On Burgers' equation and additional benchmark PDEs, the method improves high-frequency-region accuracy relative to fixed-weight PINN baselines.",
+      "year": "2026",
+      "venue": "ASCML 2026",
+      "date": "2026-10-20",
+      "arxiv": "",
+      "openreview": "",
+      "proceedings": "",
+      "source": "capturing-high-frequency-features-using-hf-boost-based-spectrally-adapti-2.zip",
+      "pdf": "capturing-high-frequency-features-using-hf-boost-based-spectrally-adapti-2.pdf",
+      "institutes": [
+        "Indian Institute of Technology Gandhinagar"
+      ]
+    },
+    {
+      "slug": "measuring-effective-data-resolution-in-guided-diffusion-posteriors",
+      "title": "Measuring Effective Data Resolution in Guided Diffusion Posteriors",
+      "authors": "Ridham Patel, Defu Cao, Jiacheng Pang, Yan Liu",
+      "abstract": "Guided diffusion samplers are increasingly used to reconstruct physical fields from sparse observations, but standard diagnostics do not say how much of the reconstruction was actually determined by the data. We introduce effective data resolution for black-box generative posteriors: a comparison between the resolution warranted by the inverse problem, , and the resolution realised by the sampler, . A perturbation estimator measures and the spatial map R(x,x) from sampler queries alone. We validate the estimator against exact references and use it to study guided diffusion. The resulting measurements show that guidance weight can strongly alter apparent information transfer, that mean, spread and resolution are not jointly corrected by one weight even with an exact prior and score, and that resolution fidelity does not follow reliably from the apparent principledness of a guidance rule.",
+      "year": "2026",
+      "venue": "NeurIPS 2026 Workshop on AI for Stochastic Dynamics",
+      "date": "2026-10-01",
+      "arxiv": "https://arxiv.org/abs/2610.04422",
+      "openreview": "https://openreview.net/forum?id=vBhbFGIxnJ",
+      "proceedings": "",
+      "source": "measuring-effective-data-resolution-in-guided-diffusion-posteriors.zip",
+      "pdf": "measuring-effective-data-resolution-in-guided-diffusion-posteriors.pdf",
+      "institutes": [
+        "Indian Institute of Technology Gandhinagar",
+        "University of Southern California",
+        "University of Southern California",
+        "University of Southern California"
+      ]
+    },
+    {
+      "slug": "rotation-robust-neural-dynamics",
+      "title": "Exact SO(3)-Equivariant Isotropic Kernels for Rotation-Robust Neural Dynamics",
+      "authors": "Ridham Patel",
+      "abstract": "Neural surrogates for vector-valued partial differential equations can fit training data yet change their predictions when the same physical state is expressed in a rotated coordinate frame. We study this failure on three-dimensional Navier–Stokes dynamics observed at irregularly placed points. We introduce the Invariant-Conditioned Isotropic Kernel Neural Operator (IKNO), a compact graph model that builds local interactions from scalar quantities unchanged by rotation and vector directions that rotate with the data. Consequently, rotating the positions and velocities rotates the predicted velocity change in exactly the same way. On a held-out test set fixed after model design, training unconstrained graph models on randomly rotated examples reduces but does not eliminate their coordinate dependence. In contrast, IKNO is consistent to numerical precision, matches the forecasting accuracy of a general rotation-aware Tensor Field Network with 5.6 times fewer parameters, and outperforms a parameter-matched graph simulator. These results show that a compact, PDE-specialized model can remove coordinate dependence without sacrificing forecasting accuracy.",
+      "year": "2026",
+      "venue": "NeurIPS 2026 Workshop NeurReps (Proceedings Track)",
+      "date": "2026-10-01",
+      "arxiv": "https://arxiv.org/abs/2610.10626",
+      "openreview": "https://openreview.net/forum?id=tf1LNC2zBS",
+      "proceedings": "",
+      "source": "neurreps_ikno_arxiv_source.zip",
+      "pdf": "rotation-robust-neural-dynamics.pdf",
+      "institutes": [
+        "Indian Institute of Technology Gandhinagar"
+      ]
+    },
+    {
+      "slug": "movement-budget-dynamic-regret",
+      "title": "When Is Tracking Affordable? A Movement-Budget Feasibility Threshold for Dynamic Regret",
+      "authors": "Ridham Patel",
+      "abstract": "Dynamic regret measures an online learner against a moving comparator, and standard analyses assume the learner may move freely at every round. We study what happens when it may not: the learner is given a hard budget S on its total movement ∑ₜ ‖xₜ − xₜ₋₁‖. Our main result is that a movement budget creates a feasibility barrier. On a domain of diameter D with G-Lipschitz convex losses, for every comparator path length Pₜ ∈ [D, DT] we exhibit a deterministic adversary that forces dynamic regret = Ω(GDT) on every budget-feasible algorithm whenever S ≤ cPₜ for a universal constant c > 0. This barrier is caused by the budget rather than by a volatile environment: for fixed D, it applies when Pₜ = o(T), where the unconstrained minimax rate Θ(G√(D(D + Pₜ)T)) is sublinear, so the same instances are learnable with an unbounded budget and unlearnable without one. Conversely, projected online gradient descent with a budget-aware step size is budget-feasible and attains o(GDT) once S = ω(D + Pₜ). Thus the critical movement scale is D + Pₜ: linear regret is unavoidable below a sufficiently small constant multiple of Pₜ, while sublinear regret is achievable when S/(D + Pₜ) → ∞ in the learnable regime. The construction rests on a distinction we make explicit: what makes a comparator expensive to track under a movement budget is the distance it forces the learner to travel, not its path length. Above the threshold we give a budget-dependent upper bound and identify the tight minimax rate in this region as an open problem rather than claiming a product law. Experiments support the predicted transition location and the 1/S decay.",
+      "year": "2026",
+      "venue": "NeurIPS 2026 FMTS Workshop",
+      "date": "2026-10-05",
+      "arxiv": "",
+      "openreview": "https://openreview.net/forum?id=SMIr4P6hHX",
+      "proceedings": "",
+      "source": "feasibility_threshold_neurips_fmts.zip",
+      "pdf": "movement-budget-dynamic-regret.pdf",
+      "institutes": [
+        "Indian Institute of Technology Gandhinagar"
+      ]
+    },
+    {
+      "slug": "symbol-of-the-surrogate",
+      "title": "The Symbol of the Surrogate: Measuring Numerical Provenance in Neural PDE Solvers",
+      "authors": "Ridham Patel",
+      "abstract": "Neural PDE surrogates are trained on numerical solver outputs that contain both physical evolution and solver-specific discretization errors. Because surrogates are also evaluated against held-out trajectories from the same solver, standard benchmarks cannot distinguish fidelity to the exact evolution from imitation of the numerical scheme. We introduce an empirical Fourier-symbol diagnostic that probes a trained surrogate's linearized one-step operator with individual Fourier modes and compares it with both exact-evolution and training-scheme references. To address architectural spectral bias, we train identical networks on schemes with orthogonal dissipative and dispersive signatures and compare their learned operators. In linear advection, the learned surrogates reproduce the training schemes' amplitude and phase errors, with the twin-scheme difference reaching more than 99.8% of the analytically predicted full-imitation ceiling. The same behavior occurs for a non-local Fourier neural operator and at the operator level for nonlinear Burgers dynamics. These results show that agreement with solver-generated test data does not by itself establish fidelity to the exact evolution. Fourier-symbol measurements provide a direct diagnostic of numerical provenance.",
+      "year": "2026",
+      "venue": "NeurIPS 2026 AI for Science Workshop",
+      "date": "2026-09-29",
+      "arxiv": "https://arxiv.org/abs/2610.09255",
+      "openreview": "https://openreview.net/forum?id=1mNyTZf0WZ",
+      "proceedings": "",
+      "source": "arxiv_submission_surrogate.zip",
+      "pdf": "symbol-of-the-surrogate.pdf",
+      "institutes": [
+        "Indian Institute of Technology Gandhinagar"
+      ]
+    }
+  ]
+}
